@@ -13,7 +13,7 @@ from sklearn.linear_model import LogisticRegression
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('/content/winequality.csv')
+df = pd.read_csv('/content/winequalityN.csv')
 print(df.head())   
 
 df.info()
